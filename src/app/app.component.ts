@@ -13,7 +13,7 @@ export class AppComponent implements OnInit {
     videoHeight = 0;
     constraints = {
         video: {
-            facingMode: "environment",
+            facingMode: 'environment',
             width: { ideal: 4096 },
             height: { ideal: 2160 }
         }
